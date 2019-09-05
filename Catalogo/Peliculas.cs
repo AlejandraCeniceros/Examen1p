@@ -17,12 +17,7 @@ namespace Catalogo
        //public int Rating { get; set; } //0 -10
        public string Sinopsis { get; set; }
 
-        public List<Playlist> Lista { get; set; }
-
-        public Peliculas()
-        {
-            Lista = new List<Playlist>();
-        }
+        
 
         private int _estreno { get; set; }
         public int Estreno
@@ -100,15 +95,15 @@ namespace Catalogo
             }
         }
 
-        public Peliculas ()
+        public Peliculas()
         {
             Titulo = "Sin definir";
-            Estreno = 2002;
+            Estreno = 0;
             Director="Sin definir";
             Genero ="Sin definir";
             Pais ="Sin definir";
-            Minutos=23;
-            Rating=5;
+            Minutos=0;
+            Rating=0;
             Sinopsis= "Sin definir";
 
         }
